@@ -4,3 +4,12 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 
 // 6, 1, 33 -> [6, 1, 33]
+
+string [] array = new string [8] 
+{
+    "5", "9", "3", "56", "2", "7", "11", "4"
+};
+for (int i = 0; i < array.Length; i++)
+{
+    Console.Write(array [i] + ", ");
+}
