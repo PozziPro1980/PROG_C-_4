@@ -20,5 +20,4 @@ double Numbers(double a, int b)
     }
     return result;
 }
-
 Console.WriteLine("Натуральная степень: "+Numbers(A,B));
