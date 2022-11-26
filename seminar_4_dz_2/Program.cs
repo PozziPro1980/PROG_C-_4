@@ -9,16 +9,15 @@
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int GetSumNum()
+int SumNum(int count)
 {
     int sum = 0;
-    int count = 0;
 
-    while (count<=sum)
+    while (count > 0)
     {
-        count++;
-        sum +=count;
+        sum += count % 10;
+        count /= 10;
     }
     return sum;
 }
-Console.WriteLine(GetSumNum());
+Console.WriteLine("Сумма цифр в числе =: "+SumNum(num));
