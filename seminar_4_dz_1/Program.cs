@@ -4,7 +4,6 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-
 Console.WriteLine("Введите число A: ");
 double A = Convert.ToInt32(Console.ReadLine());
 
